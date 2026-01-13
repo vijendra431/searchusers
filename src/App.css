@@ -1,0 +1,41 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.list-container {
+  list-style-type: none;
+  padding: 0;
+}
+
+.title {
+  font-family: 'Roboto';
+  font-size: 32px;
+  color: #183b56;
+  margin-bottom: 30px;
+  text-decoration: underline;
+}
+
+.input {
+  border-radius: 5px;
+  border-color: #183b56;
+  border-width: 1px;
+  border-style: double;
+  background-color: transparent;
+  outline: none;
+  font-weight: bold;
+  box-shadow: 0px 4px 16px 0px #000000;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .title {
+    font-size: 80px;
+  }
+  .input {
+    padding: 20px;
+    width: 50vw;
+    font-size: 25px;
+  }
+}
