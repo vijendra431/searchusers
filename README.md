@@ -1,70 +1,81 @@
-# Getting Started with Create React App
+# Users List React Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 📌 Project Overview
+This is a simple React application that displays a list of users.  
+The app allows users to **search** for a user by name and **delete** a user from the list.
 
-## Available Scripts
+This project helped me understand how to manage data and user interactions in React.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🎯 Why I Built This Project
+I built this project to:
+- Practice **React class components**
+- Understand **state management**
+- Learn how to **filter and delete data dynamically**
+- Improve my confidence in building real React features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠️ Features
+- Display list of users
+- Search users using input field
+- Delete a user from the list
+- Dynamic UI updates without page reload
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 📚 What I Learned From This Project
 
-### `npm run build`
+### 1️⃣ State Management
+- Learned how to store data in component `state`
+- Used `setState()` to update UI dynamically
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 2️⃣ Handling Input Changes
+- Controlled input using `onChange`
+- Stored search value in state
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 3️⃣ Filtering Data
+- Used `filter()` method to search users by name
+- Implemented case-insensitive search using `toLowerCase()`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 4️⃣ Passing Props
+- Passed data and functions from parent to child component
+- Used props to delete a user from child component
 
-### `npm run eject`
+### 5️⃣ List Rendering
+- Used `map()` to display users
+- Used `key` prop for better performance
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🔍 How This Project Works (Step by Step)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. User list data is stored in the component state
+2. Search input value is stored in `searchInput`
+3. User list is filtered based on search text
+4. Filtered users are displayed on the screen
+5. When delete button is clicked, the user is removed from state
+6. UI updates automatically without reloading
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## 🚀 Technologies Used
+- React.js
+- JavaScript (ES6)
+- CSS
+- HTML
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 💡 Use Case of This Project
+- Learning React fundamentals
+- Understanding real-time search functionality
+- Practicing CRUD operations (Delete)
+- Good project for beginner React portfolio
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 👨‍💻 Author
+**Vijay**  
+Frontend Developer | React Learner
